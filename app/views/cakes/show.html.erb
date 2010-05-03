@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @cake.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @cake.description %>
+</p>
+
+<p>
+  <b>Stock on hand:</b>
+  <%=h @cake.stock_on_hand %>
+</p>
+
+
+<%= link_to 'Edit', edit_cake_path(@cake) %> |
+<%= link_to 'Back', cakes_path %>

@@ -5,10 +5,10 @@ Feature: Cakes
   
   Scenario: I can add a new cake
     Given I am on the homepage
-    When I follow "New Cake"
+    When I follow "New cake"
     And I fill in the following:
-      | Name | Chocolate Forest |
-      | Description | Win |
-      | Stock on Hand | 5 |
+      | Name          | Chocolate Forest |
+      | Description   | Win              |
+      | Stock on Hand | 5                |
     And I press "Create Cake"
-    Then I should see "Successfully Created Cake"
+    Then I should see "Cake was successfully created."
